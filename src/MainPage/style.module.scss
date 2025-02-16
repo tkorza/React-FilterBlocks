@@ -1,0 +1,57 @@
+.wrapper {
+
+    width: 773px;
+    margin: 0 auto;
+    margin-top: 84px;
+
+    Input {
+        width: 656px;
+        text-align: center;
+    }
+
+    .searchBlock {
+        display: flex;
+        justify-content: space-between;
+
+        width: 773px;
+    }
+
+    .vacancyItem {
+        background-color: #FFFFFF;
+        border: 1px solid #EAEBED;
+        border-radius: 13px;
+        margin-top: 16px;
+        padding-left: 24px;
+
+        h2 {
+            font: 600 20px Inter;
+            color: #5E96FC;
+        }
+
+        p {
+            font: 400 16px Inter;
+            color: #232134;
+        }
+
+        div {
+            display: flex;
+            gap: 12px;
+        }
+
+        .cityBlock {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .pagination {
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 84px;
+        width: 192px;
+    }
+
+
+
+
+}
